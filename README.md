@@ -1,23 +1,27 @@
 # R2D2
 Instructions and code for our R2D2 kit!
 
+##Wire up the circuit like the picture:
+
+![Wiring](https://github.com/pcsforme/R2D2/blob/master/wiring.001.png)
+##Programming:
 1. Open a terminal on your Raspberry Pi with ctrl-alt-t.
-2. Clone this code with:
+1. Clone this code with:
 
   ```
   git clone http://github.com/pcsforme/R2D2
   ```
-3. Then enter the directory containing the code:
+1. Then enter the directory containing the code:
 
   ```
   cd R2D2
   ```
-4. Run the program with:
+1. Run the program with:
 
   ```
   sudo python R2D2.py
   ```
-5. Enjoy!
+1. Enjoy!
 
 ![R2D2](https://github.com/pcsforme/R2D2/blob/master/IMG_1526.JPG)
 
