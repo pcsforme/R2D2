@@ -1,22 +1,19 @@
 import time 
 import random
-from gpiozero import PWMLED
+from gpiozero import LED
 import buzztone
 
-blue = PWMLED(14)
-red = PWMLED(15)
+leds = LED(14)
 buzzer = buzztone.Buzzer()
 
 while True:
     tone = random.randint(1,5)
     delay = (random.randint(0,10))/10
     delay2 = (random.randint(0,30))/10
-    red.on()
-    blue.on()
+    leds.on()
     buzzer.play(tone)
     time.sleep(delay)
-    blue.off()
-    red.off()
+    leds.off()
     time.sleep(delay2)
     
 
